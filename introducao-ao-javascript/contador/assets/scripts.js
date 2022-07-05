@@ -1,6 +1,8 @@
 let count = 0;
 
 const CURRENT_NUMBER = document.getElementById('currentNumber');
+const BTN_INCREMENT = document.getElementById('adicionar');
+const BTN_DECREMENT = document.getElementById('subtrair');
 
 function increment() {
 	count++;
@@ -15,3 +17,6 @@ function decrement() {
 function test() {
 	kdowkdpo;
 }
+
+BTN_INCREMENT.addEventListener('click', increment);
+BTN_DECREMENT.addEventListener('click', decrement);
